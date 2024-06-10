@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.image {
+height: 120px;
+width: 120px;
+margin-top: 32px;
+margin-left: 32px;
+
+}
+.container {
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+    max-width:fit-content; 
+    padding: 32px 32px;
+    margin-left: 180px;
+    overflow: auto;
+
+    
+}
+
+.email-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    border: none;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+}
+
+.name{
+    display: flex;
+    
+}
+
+.linkedin-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+ 
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+
+
+
+.section, .container-section-right {
+    display: flex;
+}
+
+.container-section-right {
+    margin-left: 700px;
+    margin-right:32px ;
+    width: 700px;
+    padding: 100px 30px;
+    position: absolute;
+       
+}
+
+.container-section-right-logo {
+    height: auto;
+    position: relative;
+    padding-top: 170px;
+    
+  
+}
+
+.container-section-right-image {
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+    
+}
+
+.container-section-right-card {
+    width: 1000px;
+    height: 200px;
+    border-radius: 8px;
+    border: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(191,168,168,0.75);
+    padding: 16px;
+
+}
+
+.container-section-right-card-img-profil {
+    margin-right: 32px;
+    width: 120px;
+    height: 120px;
+    border-radius: 180px;
+
+}
+
+.container-section-right-card-part1 {
+    display: flex;
+    gap: 16px;    
+    padding-bottom: 32px;
+    
+}
+
+.container-section-right-card-names {
+    display: flex;
+    gap: 5px;
+    
+}
+
+.container-section-right-card-part1-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    gap: 8px;
+    
+}
+
+.container-section-right-card-part1-text p {
+    color: grey;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-separator {
+    color: rgb(231, 226, 226);
+    
+}
+
+.container-section-right-card-part2 {
+    padding: 20px;
+    font-size: 18px;
+}
+
+
